@@ -33,10 +33,6 @@ body {
     background-color: #002B41;
 }
 
-.button--header {
-    margin-top: 24px;
-}
-
 /* Верхній інформаційний банер */
 .top-banner {
     height: 51px;
@@ -245,7 +241,7 @@ body {
 /* Стилі для секції персоналізованих послуг */
 .personalized-services {
     margin-top: 140px;
-    background: url("assets/images/IMAGE (1).jpg") no-repeat center center;
+    background: url("../images/img1.jpg") no-repeat center center;
     background-size: cover;
     min-height: 550px;
     display: flex;
@@ -308,4 +304,119 @@ body {
 .button--light:hover {
     background-color: #E4ECF0;
     color: #002B41;
+}
+
+/* Стилі для секції відгуку */
+.testimonial {
+    padding: 120px 0;
+    text-align: center;
+}
+
+.testimonial__wrapper {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.testimonial__quote {
+    font-family: 'DM Serif Text', serif;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 1.3;
+    color: #00486D;
+    margin-bottom: 25px;
+    font-style: normal;
+}
+
+.testimonial__author {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    color: #4A6F82;
+    font-style: normal;
+}
+
+.testimonial__arrow {
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.testimonial__arrow:hover {
+    transform: translateX(5px);
+}
+
+/* Стилі для секції статей */
+.recent-articles {
+    padding-top: 100px;
+    padding-bottom: 140px;
+}
+
+.recent-articles__main-title {
+    font-family: 'DM Serif Text', serif;
+    font-weight: 400;
+    font-size: 44px;
+    color: #00486D;
+    margin-bottom: 50px;
+}
+
+/* Сітка для статей на CSS Grid */
+.recent-articles__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+/* Картка статті */
+.article-card {
+    position: relative;
+    background-color: #FFFFFF;
+    padding-bottom: 80px;
+    border: 1px solid #E4ECF0;
+    box-shadow: 0px 10px 30px rgba(0, 72, 109, 0.03);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.article-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 15px 40px rgba(0, 72, 109, 0.1);
+}
+
+.article-card__image-box img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+
+.article-card__meta {
+    margin: 30px 30px 15px 30px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    color: #99B6C5;
+}
+
+.article-card__title {
+    margin: 0 30px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.4;
+    color: #00486D;
+}
+
+.article-card__link {
+    position: absolute;
+    bottom: 35px;
+    left: 30px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    color: #00486D;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.article-card__link:hover {
+    color: #99B6C5;
 }
