@@ -4,4 +4,4 @@
 Тут я виконую завдання по предмету Web технології.
 
 ### Посилання на макет
-[Посилання на Figma]([встав_сюди_своє_посилання](https://www.figma.com/design/jwKwwIfXXZgDYsgxbHHvxY/McKinley--?node-id=1-4&t=APAyIJ18HW65okpu-1))
+https://www.figma.com/design/jwKwwIfXXZgDYsgxbHHvxY/McKinley--?node-id=1-4&t=APAyIJ18HW65okpu-1
