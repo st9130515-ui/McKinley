@@ -97,3 +97,61 @@ body {
     color: #00486D;
     text-decoration: none;
 }
+
+/* Стилі для секції Hero Promo */
+.hero-promo {
+    background-color: #E4ECF0;
+    overflow: hidden;
+}
+
+.hero-promo__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.hero-promo__content {
+    max-width: 635px;
+}
+
+.hero-promo__title {
+    font-family: 'DM Serif Text', serif;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 1.22;
+    color: #00486D;
+    margin-bottom: 25px;
+}
+
+.hero-promo__description {
+    font-size: 24px;
+    line-height: 1.75;
+    color: #00486D;
+    margin-bottom: 35px;
+}
+
+.hero-promo__visuals {
+    position: relative;
+    width: 576px;
+    height: 600px;
+    background-color: #00486D;
+}
+
+.hero-promo__deco-dots {
+    position: absolute;
+    z-index: 1;
+    left: -40px;
+    bottom: -30px;
+}
+
+.hero-promo__main-img {
+    position: absolute;
+    z-index: 2;
+    top: 40px;
+    right: 40px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
