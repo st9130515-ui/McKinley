@@ -1,0 +1,99 @@
+/* Загальні налаштування */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.container {
+    padding: 0 85px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Кнопки */
+.button {
+    height: 59px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 0 29px;
+    background-color: #00486D;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #002B41;
+}
+
+.button--header {
+    margin-top: 24px;
+}
+
+/* Верхній інформаційний банер */
+.top-banner {
+    height: 51px;
+    background-color: #00486D;
+}
+
+.top-banner__text {
+    color: #99B6C5;
+    font-size: 18px;
+    line-height: 51px;
+    text-align: center;
+}
+
+/* Шапка сайту */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 107px;
+}
+
+.main-header__left-side {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.main-header__logo {
+    display: flex;
+    align-items: center;
+}
+
+.main-header__menu-list {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.main-header__menu-link {
+    text-decoration: none;
+    font-size: 19px;
+    color: #00486D;
+    transition: color 0.3s ease;
+}
+
+.main-header__menu-link:hover {
+    color: #99B6C5;
+}
+
+.main-header__right-side {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.main-header__phone {
+    font-size: 17px;
+    color: #00486D;
+    text-decoration: none;
+}
